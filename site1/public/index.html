@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<div id="wrap" class="wrap">
+    <header class="header clear" id="header">
+        <ul class="navs" id="navs">
+            <li>HOME</li>
+            <li>BAND</li>
+            <li>TOUR</li>
+            <li>CONTACT</li>
+            <li class="rel">
+              MORE<span class="glyphicon glyphicon-triangle-bottom"></span>
+              <ul class="more_cont">
+                  <li>Merchandise</li>
+                  <li>Extras</li>
+                  <li>Media</li>
+              </ul>
+            </li>
+        </ul>
+        <div class="navs" id="search">
+            <span class="glyphicon glyphicon-search"></span>
+        </div>
+    </header>
+    <!-- div.page#page$*5 -->
+    <ul class="section hand" id="mains">
+        <img src="img/chicago.jpg" alt="img" class="img">
+        <li>
+            <img src="img/chicago.jpg" alt="img" class="img">
+            <h3>Chicago</h3>
+            <h5>Thank you, Chicago - A night we won't forget.</h5>
+        </li>
+        <li>
+            <img src="img/la.jpg" alt="img" class="img">
+            <h3>Los Angeles</h3>
+            <h5>We had the best time playing at Venice Beach!</h5>
+        </li>
+        <li>
+            <img src="img/ny.jpg" alt="img" class="img">
+            <h3>NewYork</h3>
+            <h5>The atmosphere in New York is lorem ipsum.</h5>
+        </li>
+    </ul>
+    <div class="section" id="bands">
+        <h2 class="section_tit">THE BAND</h2>
+        <h5 class="section_cmt">We love music</h5>
+        <p class="section_cont">
+            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <!-- ul.band>li*3>h5{Name}+img -->
+        <ul class="band clear">
+            <li>
+                <h5>Name</h5>
+                <div class="band-box">
+                    <img src="img/bandmember.jpg" alt="img" class="img hover">
+                </div>
+            </li>
+            <li>
+                <h5>Name</h5>
+                <div class="band-box">
+                    <img src="img/bandmember.jpg" alt="img" class="img hover">
+                </div>
+            </li>
+            <li>
+                <h5>Name</h5>
+                <div class="band-box">
+                    <img src="img/bandmember.jpg" alt="img" class="img hover">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="section" id="tours">
+       <div>
+          <h2 class="section_tit">TOUR DATES</h2>
+          <h5 class="section_cmt">Remember to book your tickets!</h5>
+       
+         <ul class="tour_list">
+           <li>September<span>Sold out</span></li>
+           <li>October<span>Sold out</span> <span class="badge">5</span></li>
+           <li>November <span class="w3-badge w3-black fr">3</span></li>
+         </ul>
+         <!-- div.clear.tour_cards>ul.tour_card*3>li>img^li*4 -->
+         <div class="clear tour_cards">
+             <ul class="tour_card">
+                 <li><img src="img/newyork.jpg" class="img hover" alt="img"></li>
+                 <li>New York</li>
+                 <li>Fri 27 Nov 2016</li>
+                 <li>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</li>
+                 <li>
+                     <button type="button" class="w3-button w3-black">Buy Tickets</button>
+                 </li>
+             </ul>
+             <ul class="tour_card">
+                 <li><img src="img/paris.jpg" class="img hover" alt="img"></li>
+                 <li>Paris</li>
+                 <li>Sat 28 Nov 2016</li>
+                 <li>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</li>
+                 <li>
+                     <button type="button" class="w3-button w3-black">Buy Tickets</button>
+                 </li>
+             </ul>
+             <ul class="tour_card">
+                 <li><img src="img/sanfran.jpg" class="img hover" alt="img"></li>
+                 <li>San Francisco</li>
+                 <li>Sun 29 Nov 2016</li>
+                 <li>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</li>
+                 <li>
+                     <button type="button" class="w3-button w3-black">Buy Tickets</button>
+                 </li>
+             </ul>
+         </div>
+       </div>
+    </div>
+    <div class="section" id="contacts">
+        <h2 class="section_tit">CONTACT</h2>
+        <h5 class="section_cmt">Fan? Drop a note!</h5>
+        <ul class="contact clear">
+            <li class="contact_left">
+                <!-- ul>li*3>span.glyphicon+span -->
+                <ul >
+                    <li>
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <span> Chicago, US</span>
+                    </li>
+                    <li>
+                        <span class="glyphicon glyphicon-earphone"></span>
+                        <span>Phone: +00 151515</span>
+                    </li>
+                    <li>
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        <span>Email: mail@mail.com</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="contact_right">
+                <form name="contact_form" method="post" action="#">
+                    <input type="text" name="username" placeholder="Name">
+                    <input type="text" name="email" placeholder="E-mail">
+                    <input type="text" name="message" placeholder="Message">
+                    <input type="button" name="bt_send" class="w3-button w3-black" value="SEND">
+                </form>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=zkq7DNYpouDGi6BzbMBa&submodules=geocoder"></script>
+    <div class="section" id="maps">
+            <script>
+                    var map = new naver.maps.Map('maps');
+                    var myaddress = '서울 마포구 서강로 144';// 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
+                    naver.maps.Service.geocode({address: myaddress}, function(status, response) {
+                        if (status !== naver.maps.Service.Status.OK) {
+                            return alert(myaddress + '의 검색 결과가 없거나 기타 네트워크 에러');
+                        }
+                        var result = response.result;
+                        // 검색 결과 갯수: result.total
+                        // 첫번째 결과 결과 주소: result.items[0].address
+                        // 첫번째 검색 결과 좌표: result.items[0].point.y, result.items[0].point.x
+                        var myaddr = new naver.maps.Point(result.items[0].point.x, result.items[0].point.y);
+                        map.setCenter(myaddr); // 검색된 좌표로 지도 이동
+                        // 마커 표시
+                        var marker = new naver.maps.Marker({
+                          position: myaddr,
+                          map: map
+                        });
+                        // 마커 클릭 이벤트 처리
+                        naver.maps.Event.addListener(marker, "click", function(e) {
+                          if (infowindow.getMap()) {
+                              infowindow.close();
+                          } else {
+                              infowindow.open(map, marker);
+                          }
+                        });
+                        // 마크 클릭시 인포윈도우 오픈
+                        var infowindow = new naver.maps.InfoWindow({
+                            content: '<h4> [네이버 개발자센터]</h4><a href="https://developers.naver.com" target="_blank"><img src="https://developers.naver.com/inc/devcenter/images/nd_img.png"></a>'
+                        });
+                    });
+                    </script>
+    </div>
+    <footer class="footer" id="footer">
+        ds6318@naver.com
+    </footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

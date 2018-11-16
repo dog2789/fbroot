@@ -1,0 +1,57 @@
+.wrap{width:100%; height:100%; max-width:1000px; margin:0 auto; border:4px solid #e1e1e1;}
+.tabs{width:100%; height:60px; color:#666;}
+.tabs > li{float:left; line-height: 60px; text-align: center; width:50%; font-size:2rem; font-weight: bold;  border-bottom:1px solid #999; border-right:1px solid #999;}
+.tabs > :last-child {border-right:0;}
+.daily , .weekly {width:50%; height:calc(100% - 60px); float:left; padding:5%; text-align: center; }
+.daily {display:table; border-right:1px solid #ccc;}
+.daily > div {display:table-cell; text-align: center; vertical-align: middle;}
+.weekly {overflow: auto;}
+.weekly > li{padding:3%; border-bottom:1px solid #ccc; text-align: left;}
+.weekly .wk_icon {float:left; width:20%;}
+.weekly ul{float:left; width:80%; padding-left:10%;}
+.wk_area{font-size:1.25em; color:rgb(2, 39, 95); font-weight: bold;}
+.wk_date{font-size:1.25em; color:rgb(66, 66 ,66);}
+.wk_temp{font-size:1.5em; color:rgb(8, 52, 102);}
+.wk_desc{font-size:1.25em; color:rgb(177, 177, 177);}
+
+.tab_active{background-color:skyblue; color:#fff;}
+.tab_disable{background-color:rgb(202, 216, 226); color:#666;}
+.dl_icon {width:80%; max-width: 250px;}
+.dl_area{font-size:2em; color:rgb(2, 39, 95); font-weight: bold; margin-top:2em;}
+.dl_date{font-size:1.5em; color:rgb(66, 66 ,66); }
+.dl_temp{font-size:2em; color:rgb(8, 52, 102);}
+.dl_desc{font-size:1.5em; color:rgb(177, 177, 177);}
+
+
+
+@media screen and (max-width:799px){
+    .tabs > li{font-size:1.25rem;}
+    .daily, .weekly {width:100%; float:none;}
+    .weekly{display:none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

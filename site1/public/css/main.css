@@ -1,0 +1,77 @@
+.wrap {width:100%; /*max-width:1200px; margin:0 auto;*/ height:100%;}
+
+/***** 헤더 및 네비게이션 *****/
+.header{background-color:#000; color:#fff; box-shadow:0 5px 10px rgba(0,0,0,0.5); position:fixed; width:100%; z-index:999;
+top:0;}
+.navs{cursor:pointer;}
+#navs{float:left;}
+#navs > li {float:left; padding:1rem 1.5rem;}
+#navs > li:hover {background-color:#ccc; color:#000;}
+#navs .glyphicon {font-size:0.5em;}
+.more_cont {box-shadow:0 5px 5px rgba(0,0,0,0.5); position: absolute; background-color: #fff; top:3.4em; left:0;  display:none;}
+.more_cont > li{padding:0.75em 4em 0.75em 0.75em; color:#000;}
+.more_cont > li:hover{background-color:#ccc;}
+#search{float:right; padding:1rem 1.5rem;}
+#search:hover{background-color:#f00;}
+
+/***** 본문 *****/
+.section {width:100%; font-size:1rem;}
+
+/***** 메인페이지 *****/
+#mains {color:#fff; text-align: center; margin-top:3rem; position: relative;}
+#mains > li{width:100%; position: absolute; z-index: 9; top:0;}
+#mains h3{width:100%; position: absolute; bottom: 4rem;}
+#mains h5{width:100%; position: absolute; bottom:2rem;}
+
+
+
+/***** 밴드페이지 *****/
+#bands{width:96%; margin:0 auto 3em; max-width:780px;}
+.section_tit{padding-top:2em; text-align: center; color:#222; letter-spacing: 0.25rem;}
+.section_cmt{margin-top:1em; text-align: center; font-style: italic; color:#999;}
+.section_cont{text-align: justify; margin-top:1em;}
+.band > li{width:33.33%; float:left; padding:3em; text-align: center;}
+.band > li h5{text-transform: uppercase;}
+.band-box{background-color:#000; border-radius: 0.5em; overflow: hidden;}
+
+/***** 투어페이지 *****/
+#tours {width:100%; padding:2em 0 5em 0; background-color:#000;}
+#tours > div{width:96%; margin:0 auto; max-width:780px;}
+#tours .section_tit{color:#fff;}
+.tour_list{background-color:#fff;}
+.tour_list > li{border-bottom:1px solid #999; padding:0.75em;}
+.tour_list > :last-child{border-bottom:0;}
+.tour_list span{display:inline-block; padding:0.1em 0.3em; background-color:#f40; color:#fff; margin-left:1em; 
+    font-size:0.875em;}
+.tour_list .badge{width:1.5em; height:1.5em; border-radius: 0.75em; background-color:#000; color:#fff; text-align: center;
+line-height:1.5em; float:right;}
+.tour_list .w3-badge{width:1.5em;}
+.tour_cards{width:100%; margin-top:2em;}
+.tour_card{width:32%; float:left; background-color:#fff; font-size:1rem;}
+.tour_card:nth-child(2){margin:0 2%;}
+.tour_card > :first-child{background-color:#000;}
+.tour_card > li:not(:first-child) {padding:0.5em 1em;}
+.tour_card > :nth-child(2){color:#000; font-weight: 400; }
+.tour_card > :nth-child(3){color:#999; font-style: italic; }
+
+/***** 컨택페이지 *****/
+#contacts {width:96%; margin:0 auto 3em; max-width:780px;}
+.contact{margin-top:2em;}
+.contact > li {float:left; width:50%;}
+.contact_left li {padding:0.25em; color:#000;}
+.contact_left .glyphicon {width:2em; text-align: left;}
+.contact_right input{padding:0.5em; float:left;}
+.contact_right input[name="username"]{width:48%;}
+.contact_right input[name="email"]{width:48%; margin-left:4%;}
+.contact_right input[name="message"]{width:100%; margin-top:4%;}
+.contact_right input[name="bt_send"]{margin-top:4%; float:right;}
+
+/***** 지도페이지 *****/
+#maps {width:100%; height:350px; margin:5rem 0 0 0;}
+
+
+/***** footer *****/
+#footer{padding:5rem; text-align:center;}
+
+
+

@@ -1,0 +1,56 @@
+[debug] [2018-10-29T00:41:35.630Z] ----------------------------------------------------------------------
+[debug] [2018-10-29T00:41:35.646Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-29T00:41:35.646Z] CLI Version:   4.2.1
+[debug] [2018-10-29T00:41:35.646Z] Platform:      win32
+[debug] [2018-10-29T00:41:35.646Z] Node Version:  v8.12.0
+[debug] [2018-10-29T00:41:35.646Z] Time:          Mon Oct 29 2018 09:41:35 GMT+0900 (대한민국 표준시)
+[debug] [2018-10-29T00:41:35.646Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-29T00:41:35.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-29T00:41:35.739Z] > authorizing via signed-in user
+[debug] [2018-10-29T00:41:35.755Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-29T00:41:35.755Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-10-29T00:41:37.238Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-29T00:41:37.254Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dog2789-js1  
+ 
+[debug] [2018-10-29T00:41:38.362Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-29T00:41:38.362Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dog2789-js1  
+ 
+[debug] [2018-10-29T00:41:39.434Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\wj\fbroot\js1'...
+[info] 
+[debug] [2018-10-29T00:41:39.434Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/945263074760/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-29T00:41:40.264Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dog2789-js1]: Serving hosting files from: public
+[info] +  hosting[dog2789-js1]: Local server: http://localhost:5000
+[debug] [2018-10-30T00:42:09.603Z] ----------------------------------------------------------------------
+[debug] [2018-10-30T00:42:09.603Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-30T00:42:09.603Z] CLI Version:   4.2.1
+[debug] [2018-10-30T00:42:09.603Z] Platform:      win32
+[debug] [2018-10-30T00:42:09.603Z] Node Version:  v8.12.0
+[debug] [2018-10-30T00:42:09.619Z] Time:          Tue Oct 30 2018 09:42:09 GMT+0900 (대한민국 표준시)
+[debug] [2018-10-30T00:42:09.619Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-30T00:42:09.650Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-30T00:42:09.650Z] > authorizing via signed-in user
+[debug] [2018-10-30T00:42:09.650Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-30T00:42:09.650Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-10-30T00:42:10.227Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-30T00:42:10.243Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dog2789-js1  
+ 
+[debug] [2018-10-30T00:42:11.497Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-30T00:42:11.497Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dog2789-js1  
+ 
+[debug] [2018-10-30T00:42:12.811Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\wj\fbroot\js1'...
+[info] 
+[debug] [2018-10-30T00:42:12.827Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/945263074760/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-30T00:42:13.481Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dog2789-js1]: Serving hosting files from: public
+[info] +  hosting[dog2789-js1]: Local server: http://localhost:5000

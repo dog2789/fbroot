@@ -1,0 +1,23 @@
+html, body{height:100%; font-size:14px; color:#666; background-color:#fff; margin: 0; padding: 0; box-sizing: border-box;}
+div, ol, dl, dd, dt, ul, li{margin: 0; padding: 0; box-sizing: border-box;}
+ul{list-style: none;}
+a{text-decoration: none; color:#666;}
+img{width:100%;}
+.clear {clear:both;}
+.clear:after {clear:both; content:""; display: block;}
+
+
+.header{width:100%; max-width:960px; height:100px; margin:0 auto; background-color:rgb(202, 214, 207);}
+.header .logo{padding:10px 0 0 20px; width:30%; float:left;}
+.header .logo img {max-width:200px;}
+.gnb-bar{width:69%; float:right; padding-top:40px;}
+.gnb > li{float:left; width:25%; text-align: center; font-size:1.125rem; letter-spacing: 5px; position: relative;}
+.gnb > li > a:hover{text-decoration: underline;}
+
+.side1, .side2, .side3, .side4{display:none; position: absolute; background-color:rgb(202, 214, 207); top:150%; width:100%; text-align: center;
+z-index:999;}
+.side1 li, .side2 li, .side3 li, .side4 li{padding:5px 7px; border-bottom:1px solid #fff;}
+
+.wrap{max-width:960px; width:100%; margin:0 auto; overflow:hidden;}
+.banner{width:600%; position: relative;}
+.banner > img{float:left; max-width:960px;}
